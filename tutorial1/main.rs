@@ -24,8 +24,9 @@ fn main() {
     let c = 'c';
     let position = (4, 5, 6);
     let array = [4, 5, 6];
-    let array=[0;500];// array of 500 zeros
+    let array2=[0;500];// array of 500 zeros
     println!("{}",array[1]);
+    println!("{}",position.1);
     // all those type are stored in stack S
     let name:String=String::from("Ali");
     println!("my name is {}",name);
