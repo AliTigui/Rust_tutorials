@@ -13,7 +13,7 @@ fn main(){
     * Array :Collection of deferent value of same  type [4,5] to access them we use brackets with index
     */
 
-    cons PI:f64=3.14;                              
+    const PI:f64=3.14;                              
     let a:i32=4;
     let b:f64=4.5;
     let name:&str ="Ali";
