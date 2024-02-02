@@ -21,4 +21,6 @@ fn main() {
     let c = 'c';
     let position = (4, 5, 6);
     let array = [4, 5, 6];
+    let array=[0;500];
+    println!("{}",array[1]);
 }
