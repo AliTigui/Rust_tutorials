@@ -12,6 +12,8 @@ fn main() {
      * Char : ['A', 'b', ...]
      * Tuple : Collection of deferent value with defferent  type (4,5,'a') to access them we use dot notation with index
      * Array :Collection of deferent value of same  type [4,5] to access them we use brackets with index
+     * Remarque:
+       - variables by nature are immutable to make the mutable we add mut before variable name
      */
 
     const PI: f64 = 3.14;
