@@ -2,6 +2,7 @@
 /*
   This multiple line commane /*this nested comment */
 */
+use std::io;
 fn main() {
     /* we can see below primitive data type in Rust */
     /*
@@ -26,4 +27,9 @@ fn main() {
     // all those type are stored in stack S
     let name:String=String::from("Ali");
     println!("my name is {}",name);
+    let mut name2=String::new();
+    io::stdin().read_line(&mut name2).expect("couldn't read value");
+    println!("second name is {}",name2);
+
+
 }
