@@ -1,6 +1,4 @@
 ** TURORIAL 1
 * In this tutorial we will see :
 1-: Variables / Constant / Data types
-2-: Conditions / Loops
-3-: Function / Function that return value
-4-: Input / Output 
+2-: Input / Output 
