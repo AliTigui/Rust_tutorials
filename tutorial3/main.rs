@@ -12,7 +12,9 @@ fn main(){
        - At any given time, you can have either one mutable reference or any number of immutable references.
        - References must always be valid.
      * to change value of referenced variable we have to create it mutable also it reference mutable
-     * 
+     * slice is reference to part of colection we can use it with string array
+     * string slice is of type &str
+     * array slice it of type &[i32] or &[f32]
      */
     //===================== Scope ===================== 
     let a=4;
@@ -38,7 +40,7 @@ fn main(){
     println!("s3 still valide /{}/",s3);
     let r:&mut String=&mut s3;
     func4(r);
-    println!("s3 still valide and it value changed /{}/",s3)
+    println!("s3 still valide and it value changed /{}/",s3);
     /*
     let r1 = &mut s;
     let r2 = &mut s;
@@ -50,8 +52,12 @@ fn main(){
     -this code cus error too w can't have mut reference with non mut reference
      */
     //======================= Slicing  ================
-
-
+    let s:String=String::from("hello");
+    let b=&s[0..2];//start value and end value end valueisn't taken in count 
+    println!("{}",b);
+    let a = [1, 2, 3, 4, 5];
+    let slice = &a[1..3];// slice of array 
+    println!("{}",slice[0]);
 
 
 }
