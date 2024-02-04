@@ -3,3 +3,4 @@
 1-: Ownership / Reference
 2-: String
 3-: Variables Scope
+4-: Slicing 
