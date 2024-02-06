@@ -14,3 +14,8 @@ Also we see how we can take inputs and how to display outputs
 This tutorial will be about control flow **(if ,else ,else if)** Loops **(loop ,while ,for)** and different type of functions.
 
 Also we see in this tutorial difference between expression and statement.
+
+## Tutorial 3
+
+This tutorial will be about memory management work in rust, we will see how ownership system work also how to make reference, rules of reference and how we can make slices 
+
