@@ -11,6 +11,6 @@ Also we see how we can take inputs and how to display outputs
 
 ## Tutorial 2
 
-This tutorial will be about control flow **(if ,else e,lse if)** Loops **(loop ,while ,for)** and different type of functions.
+This tutorial will be about control flow **(if ,else ,else if)** Loops **(loop ,while ,for)** and different type of functions.
 
 Also we see in this tutorial difference between expression and statement.
