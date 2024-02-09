@@ -36,6 +36,7 @@
     for i in &mut v {
         *i += 50;
     }
+    // to make vector hold data of defference type we can use enum
     let str0="hello";
     let mut s:String=String::from(str0);
     let s2:String=String::from(" world");
@@ -43,6 +44,10 @@
     println!("{s}");
     s=s+&s2;
     println!("{s}");
-
-    // to make vector hold data of defference type we can use enum
+    let name="ali";
+    let me = name.to_string();
+    println!("{me}");
+    let ss = format!("{me}-{s}-{name}"); // like println but print to string
+    println!("{ss}");
+    
  }
