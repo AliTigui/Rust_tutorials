@@ -15,7 +15,7 @@
     v3.push(4);
     v3.pop();
     //access value inside vector
-    let third: &i32 = &v[2];
+    let third: &i32 = &v2[1];
     println!("The third elemenst is {third}");
 
     let third: Option<&i32> = v.get(2);
